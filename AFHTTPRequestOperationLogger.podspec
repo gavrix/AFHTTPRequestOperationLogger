@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'AFHTTPRequestOperationLogger'
-  s.version  = '1.0.0'
+  s.version  = '2.0.0'
   s.license  = 'MIT'
   s.summary  = 'AFNetworking Extension for HTTP Request Logging'
   s.homepage = 'https://github.com/AFNetworking/AFHTTPRequestOperationLogger'
@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '6.0'
 
-  s.dependency 'AFNetworking', '>= 1.0', '< 3.0'
+  s.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
 end
